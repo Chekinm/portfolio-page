@@ -12,7 +12,7 @@ const Background = ({children}) => {
   const getBackgroundStyle = () => {
     const { x, y } = gradientPosition;
     return {
-      background: `radial-gradient(circle at ${x}% ${y}%, #2b567b, #32343e 40%)`,
+      background: `radial-gradient(circle at ${x}% ${y}%, #2b567b, #32343e 400px)`,
     };
   };
 

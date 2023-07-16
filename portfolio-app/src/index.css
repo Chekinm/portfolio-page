@@ -25,9 +25,24 @@ article {
 
 }
 
+.skills {
+  text-align: start;
+  
+}
+
+.skill {
+  color: RGB(30, 61, 88);
+  background-color: rgb(24, 177, 141);
+  padding: 0px 5px;
+  margin-top: 20px;
+  border: 0px solid black;
+  border-radius: 7px;
+
+}
+
 
 .link-highligth:hover {
-  color: aqua;
+  color: rgb(152, 240, 210);
 }
 
 
@@ -105,8 +120,8 @@ article {
 
   .independent-scroll {
     padding: 10px;
-    
-    
+    min-height: 500vh;
+    overflow-y: initial;    
   }
 
 
