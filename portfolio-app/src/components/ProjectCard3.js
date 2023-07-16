@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-const ProjectCard = () => {
+const ProjectCard1 = () => {
   return (
     <Container className="project-card text-white text-opacity-75">
       <Row>
@@ -13,14 +13,16 @@ const ProjectCard = () => {
             s/>
           </div>
           <div className="">
-            <span className="skill">GitHub</span>
-            <span className="skill me-auto">Demo</span>
+            <span className="skill">
+              
+              Source code</span>
+            <span className="skill ms-3">Live demo</span>
           </div>
         </Col>
 
         <Col xs={12} lg={8}>
 
-          <h2> <a className="link-highligth text-decoration-none"
+          <h2> <a className="link-button text-decoration-none"
                   target="_blank"
                   rel="noreferrer"
                   href="https://bottle-buddy-front.onrender.com/">Bottle-buddy project</a></h2>
@@ -40,4 +42,4 @@ const ProjectCard = () => {
   )
 }
 
-export default ProjectCard
+export default ProjectCard1

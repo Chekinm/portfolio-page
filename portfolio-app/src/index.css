@@ -51,6 +51,15 @@ article {
   color: rgb(24, 177, 141);
 }
 
+.link-button:hover {
+  color: rgb(152, 240, 210);
+}
+
+.link-button  {
+  color: rgb(30, 61, 88);
+}
+
+
 .navbar-toggler:focus,
 .navbar-toggler,
 .navbar-toggler.active {
