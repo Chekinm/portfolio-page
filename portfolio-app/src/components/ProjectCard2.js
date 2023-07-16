@@ -6,27 +6,27 @@ const ProjectCard2 = () => {
   return (
     <Container className="project-card text-white text-opacity-75">
       <Row>
-        <Col lg={4} xs={7} className="d-flex flex-column justify-content-around">
+        <Col lg={4} xs={0} className="d-flex flex-column justify-content-around d-none d-lg-block">
           <div><img src="img/LZW.png"
             alt="LZW png"
             width="100%"
-            s />
+          />
           </div>
-          <div className="">
-          <span className="skill">
+          <div className="p-2">
+            <span className="skill ms-3">
               <a className="link-button text-decoration-none"
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Chekinm/chekinm.github.io">
-                Source code
+                GitHub
               </a>
-            </span> 
+            </span>
             <span className="skill ms-3">
               <a className="link-button text-decoration-none"
                 target="_blank"
                 rel="noreferrer"
                 href="https://chekinm.github.io/">
-                Live demo
+                Demo
               </a>
             </span>
           </div>
@@ -49,17 +49,40 @@ const ProjectCard2 = () => {
             which we now know as LZW compression algorithm.
             Their fundamental ideas lay in the bottom of all modern compression methods.
           </p>
-          <p> This site was developed as admition project fro DI bootcamp. The project uses pure HTML5 and CSS for design, and Python and Pyscript for backend automation.
+          <p>
+            This site was developed as admition project fro DI bootcamp. The project uses pure HTML5 and CSS for design, and Python and Pyscript for backend automation.
             And yes, it has LZW algorithm implemented inside.
+          </p>
+          <p>
+            The project uses Django backend with Django Rest Framework and React frontend for user authentication, order management, and communication. It aims to streamline recycling by connecting users for convenient and efficient order creation and management.
           </p>
 
         </Col>
-        {/* <Col xs={9} className="d-xs-block">
+        <Col xs={12} lg={0} className="d-bock d-sm-none">
           <img src="img/bottle-buddy.png"
             alt="bootle-buddy-project png"
             width="100%"
           />
-        </Col> */}
+
+          <div className="p-2">
+            <span className="skill ms-3">
+              <a className="link-button text-decoration-none"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Chekinm/chekinm.github.io">
+                GitHub
+              </a>
+            </span>
+            <span className="skill ms-3">
+              <a className="link-button text-decoration-none"
+                target="_blank"
+                rel="noreferrer"
+                href="https://chekinm.github.io/">
+                Demo
+              </a>
+            </span>
+          </div>
+        </Col>
       </Row>
     </Container>
   )

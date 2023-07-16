@@ -11,6 +11,7 @@ body {
 
 section {
   /* border: 1px solid rgb(0, 255, 13); */
+  padding: 10px;
   min-height: 85vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +23,7 @@ section {
 
 article {
   /* border: 1px solid yellow; */
+  padding: 10px;
   margin-top: 1px;
   min-height: 85vh;
   
@@ -86,6 +88,7 @@ article {
 
 .name-section {
   /* border: 1px solid greenyellow; */
+  padding: 10px;
   min-height: 75vh;
   position: relative;
   margin-top: 15vh;
@@ -111,9 +114,11 @@ article {
 }
 
 .project-card {
-  padding: 20px;
   width: calc(100% - 20px) ;
   margin: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+
 
 
   background-color: rgba(41, 95, 143, 0);
