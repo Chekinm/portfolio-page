@@ -1,26 +1,10 @@
-import React from 'react'
+import ProjectCard from "./ProjectCard"
 
 const Projects = () => {
   return (
-    <section id="projects">
-      <p className='p-4 m-4'>Projects</p>
-      <p className='p-4 m-4'>Projects</p>
-      <p className='p-4 m-4'>Projects</p>
-      <p className='p-4 m-4'>Projects</p>
-      <p className='p-4 m-4'>Projects</p>
-      <p className='p-4 m-4'>Projects</p>
-      <p className='p-4 m-4'>Projects</p>
-      <p className='p-4 m-4'>Projects</p>
-      <p className='p-4 m-4'>Projects</p>
-      <p className='p-4 m-4'>Projects</p>
-      <p className='p-4 m-4'>Projects</p>
-      <p className='p-4 m-4'>Projects</p>
-
-
-
-
-      
-    </section>
+    <article id="projects">
+      <ProjectCard />
+    </article>
   )
 }
 

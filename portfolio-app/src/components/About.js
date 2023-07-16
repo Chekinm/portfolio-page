@@ -32,7 +32,7 @@ const About = () => {
           > reach out to me </Link>  with any questions you may have.</p>
 
           <p>Kind regards!</p> 
-          <p>Mikhail!</p>
+          <h5>Mikhail!</h5>
     </article>
   )
 }

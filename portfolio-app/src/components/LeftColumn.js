@@ -14,7 +14,7 @@ const LeftColumn = () => {
 
         </div>
         <div>
-          <div className="fs-2">My stack</div>
+          <div className="fs-2 text-white text-opacity-50">My stack</div>
           <p className="fs-5 text-white text-opacity-50 skills">
             <span className="skill">Python</span>{'\u00A0'}
             <span className="skill">Javascript</span>{'\u00A0'}

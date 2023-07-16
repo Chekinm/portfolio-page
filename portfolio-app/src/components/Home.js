@@ -3,7 +3,6 @@ import { useLocation } from 'react-router-dom';
 
 import About from './About';
 import Projects from './Projects'
-import Skills from './Skills'
 import Contacts from './Contacts' 
 import LeftColumn from './LeftColumn'
 
@@ -45,12 +44,8 @@ const Home = () => {
           <Col xs={0} lg={1}>
           </Col>
           <Col xs={12} lg={7} ref={rightColumnRef} className="independent-scroll">
-            {/* render navlinks here */}
-            {/* <Outlet />
-            {location.pathname === '/' && <About />} */}
             <About />
             <Projects />
-            <Skills />
             <Contacts />
           </Col>
         </Row>

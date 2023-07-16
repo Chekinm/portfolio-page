@@ -27,7 +27,7 @@ function Navbar() {
                         bg-transparent
                         fixed-top
                         background-blurred">
-            <Link className="navbar-brand" to="/#home">
+            <Link smooth className="navbar-brand" to="/#home">
                 <LogoSmall className="logo_svg"/>
             </Link>
             <button
@@ -44,6 +44,7 @@ function Navbar() {
                 <ul className="navbar-nav ms-auto p-0 fs-5 m-1 pe-4 me-5 text-center">
                     <li className="nav-item pe-2">
                         <Link
+                            smooth
                             className="nav-link pe-2"
                             to="/#about"
                             onClick={toggleMenu}
@@ -53,6 +54,7 @@ function Navbar() {
                     </li>
                     <li className="nav-item pe-2 text-center">
                         <Link
+                            smooth
                             className="nav-link pe-2 text-center"
                             to="/#projects"
                             onClick={toggleMenu}
@@ -60,16 +62,10 @@ function Navbar() {
                             Projects
                         </Link>
                     </li>
-                    <li className="nav-item pe-2" >
-                        <Link className="nav-link pe-2 "
-                            to="/#skills"
-                            onClick={toggleMenu}
-                        >
-                            Skills
-                        </Link>
-                    </li>
                     <li className="nav-item pe-2">
-                        <Link className="nav-link pe-2"
+                        <Link 
+                            smooth
+                            className="nav-link pe-2"
                             to="/#contacts"
                             onClick={toggleMenu}
                         >

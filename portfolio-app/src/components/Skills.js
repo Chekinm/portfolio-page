@@ -2,9 +2,9 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <section id="skills">
-      Skills
-    </section>
+  <article className="fs-5 text-white text-opacity-75" id="skills">
+      <h4>Skills</h4>
+    </article>
   )
 }
 
