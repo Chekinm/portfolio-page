@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa6";
 import ContactIcons from './ContactIcons';
 import Logo from './Logo'
 import LogoSmall from '../assets/LogoSmall';
+import { HashLink as Link} from 'react-router-hash-link'
 
  
 function Navbar() {
@@ -26,7 +27,7 @@ function Navbar() {
                         bg-transparent
                         fixed-top
                         background-blurred">
-            <Link className="navbar-brand" to="/home">
+            <Link className="navbar-brand" to="/#home">
                 <LogoSmall className="logo_svg"/>
             </Link>
             <button
@@ -44,7 +45,7 @@ function Navbar() {
                     <li className="nav-item pe-2">
                         <Link
                             className="nav-link pe-2"
-                            to="/about"
+                            to="/#about"
                             onClick={toggleMenu}
                         >
                             About
@@ -53,7 +54,7 @@ function Navbar() {
                     <li className="nav-item pe-2 text-center">
                         <Link
                             className="nav-link pe-2 text-center"
-                            to="/projects"
+                            to="/#projects"
                             onClick={toggleMenu}
                         >
                             Projects
@@ -61,7 +62,7 @@ function Navbar() {
                     </li>
                     <li className="nav-item pe-2" >
                         <Link className="nav-link pe-2 "
-                            to="/skills"
+                            to="/#skills"
                             onClick={toggleMenu}
                         >
                             Skills
@@ -69,7 +70,7 @@ function Navbar() {
                     </li>
                     <li className="nav-item pe-2">
                         <Link className="nav-link pe-2"
-                            to="/contacts"
+                            to="/#contacts"
                             onClick={toggleMenu}
                         >
                             Contacts

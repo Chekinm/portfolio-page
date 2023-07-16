@@ -8,7 +8,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+section {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color:rgb(255, 255, 255)
+}
 
+article {
+  min-height: 85vh;
+  
+  text-align: justify;
+
+}
+
+
+.link-highligth:hover {
+  color: aqua;
+}
 
 
 .navbar-toggler:focus,
@@ -37,7 +57,7 @@ body {
 }
 
 .name-section {
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
   min-height: 75vh;
   position: relative;
   margin-top: 15vh;
@@ -54,7 +74,7 @@ body {
 
 
 .independent-scroll {
-  border: 1px solid rgb(141, 179, 84);
+  /* border: 1px solid rgb(141, 179, 84); */
   height: 85vh;
   position: relative;
   margin-top: 15vh;
@@ -65,4 +85,30 @@ body {
 
 .independent-scroll::-webkit-scrollbar {
   display: none;
+}
+
+
+@media (max-width: 767px) {
+  /* Write your CSS styles for small screens here */
+  /* For example: */
+  .name-section {
+    min-height: 28vh;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color:rgb(255, 255, 255);
+    border-bottom: 1px solid #00b08e;
+  }
+
+  .independent-scroll {
+    padding: 10px;
+    
+    
+  }
+
+
+  
 }
