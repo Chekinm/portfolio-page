@@ -53,13 +53,6 @@ const ProjectCard2 = () => {
             The project uses pure HTML5 and CSS for design, and Python and Pyscript for backend automation. 
             And yes, it has the LZW algorithm implemented inside.
           </p>
-
-
-          On February 4, 2023, I heard the sad news that Abraham Lempel had passed away. He was 86 years old. The news said that he was the grandfather of all modern compression algorithms. Today, everybody knows words like MP3, JPEG, or ZIP, but only a few know who invented these technologies for us. In 1977, Abraham Lempel and Jacob Ziv published their article about a lossless data compression algorithm. Later, in 1984, Terry Welch suggested a slightly modified version of this algorithm, which we now know as the LZW compression algorithm. Their fundamental ideas are at the core of all modern compression methods.
-
-This site was developed as an admission project for the DI bootcamp. The project uses pure HTML5 and CSS for design, and Python and Pyscript for backend automation. And yes, it has the LZW algorithm implemented inside.
-
-
         </Col>
         <Col xs={12} lg={0} className="d-bock d-sm-none">
           <img src="img/bottle-buddy.png"

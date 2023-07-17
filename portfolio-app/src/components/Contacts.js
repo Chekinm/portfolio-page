@@ -12,7 +12,7 @@ const Contacts = () => {
           target="_blank"
           rel="noreferrer"
           className="link-highligth text-decoration-none"
-        > my CV.</a>. </p>
+        > my CV.</a></p>
         <p>
         Or contact me via <a href="https://www.linkedin.com/in/mikhail-chekin/"
            className="link-highligth text-decoration-none">
