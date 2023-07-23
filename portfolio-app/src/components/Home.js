@@ -16,8 +16,6 @@ import Navbar from './Navbar';
 
 const Home = () => {
   const rightColumnRef = useRef(null);
-  const location = useLocation();
-
 
   useEffect(() => {
     const handleScroll = (e) => {
