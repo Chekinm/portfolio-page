@@ -18,7 +18,7 @@ const ProjectCard = ({project}) => {
   return (
     <Container className="project-card text-white text-opacity-75">
       <Row>
-        <Col lg={4} xs={0} className="d-flex flex-column justify-content-around d-none d-lg-block">
+        <Col lg={4} md={0} className="d-flex flex-column justify-content-around d-none d-lg-block">
           <div><img src={picture}
             alt={name}
             width="100%"
@@ -56,7 +56,7 @@ const ProjectCard = ({project}) => {
              ))}
           </div>
         </Col>
-        <Col xs={12} lg={0} className="d-bock d-sm-none">
+        <Col md={12} lg={0} className="d-block d-lg-none">
           <img src={picture}
             alt={name}
             width="100%"

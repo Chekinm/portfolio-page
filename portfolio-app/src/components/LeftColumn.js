@@ -1,8 +1,4 @@
 import ContactIcons from "./ContactIcons"
-import About from "./About"
-import Projects from "./Projects"
-import Contacts from "./Contacts"
-import Skills from "./Skills"
 
 const LeftColumn = () => {
   return (
@@ -35,10 +31,6 @@ const LeftColumn = () => {
           </p>
         </div>
       <ContactIcons className="icons-container"/>  
-      {/* <About d-none/>
-      <Projects d-none />
-      <Skills d-none/>
-      <Contacts d-none/>       */}
     </main>
 
   )

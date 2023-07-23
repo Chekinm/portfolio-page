@@ -1,11 +1,8 @@
 import React, { useEffect, useRef } from 'react';
-import { useLocation } from 'react-router-dom';
-
 import About from './About';
 import Projects from './Projects'
 import Contacts from './Contacts' 
 import LeftColumn from './LeftColumn'
-
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -13,10 +10,8 @@ import Col from 'react-bootstrap/Col';
 import Navbar from './Navbar';
 
 
-
 const Home = () => {
   const rightColumnRef = useRef(null);
-
   useEffect(() => {
     const handleScroll = (e) => {
       const { deltaY } = e;

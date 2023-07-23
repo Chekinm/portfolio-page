@@ -72,12 +72,7 @@ function Navbar() {
                         </Link>
                     </li>
                 </ul>
-
             </div>
-            {/* <span className="contacts-icon navbar-text ms-auto pe-4 d-none d-lg-block h2"
-                  data-bs-toggle="collapse">
-                <ContactIcons />
-            </span> */}
         </nav>
 
     );

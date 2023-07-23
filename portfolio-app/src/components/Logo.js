@@ -3,7 +3,6 @@ const Logo = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-    //   width="290"
       zoomAndPan="magnify"
       viewBox="0 0 217.5 60"
       height="35"
