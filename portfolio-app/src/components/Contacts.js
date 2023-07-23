@@ -3,7 +3,7 @@ import React from 'react'
 const Contacts = () => {
   return (
     <article className="fs-5 text-white text-opacity-75" id="contacts">
-      <h2>Contacts.</h2>
+      <h2>Contacts</h2>
       <br />
         <p>I live in Rishon LeZion.
         I am considering jobs locations in Gushdan, Jerusalem, Ashkelon and Ashdod.

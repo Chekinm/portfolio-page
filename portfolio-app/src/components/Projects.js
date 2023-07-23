@@ -1,11 +1,17 @@
-import ProjectCard1 from "./ProjectCard1"
-import ProjectCard2 from "./ProjectCard2"
+import projectsData from "./projectsData.json";
+import ProjectCard from "./ProjectCard";
+import { v4 as uuidv4 } from 'uuid';
+
 
 const Projects = () => {
   return (
     <article id="projects">
-      <ProjectCard1 className="mb-3"/>
-      <ProjectCard2 className="mb-3"/>
+
+      
+        {projectsData.projects.map((project) => (
+          <ProjectCard key={uuidv4()} className="mb-3" project={project} />
+        ))}
+      
     </article>
   )
 }
