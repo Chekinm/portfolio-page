@@ -1,10 +1,4 @@
-import { useState } from 'react';
-// import { Link } from 'react-router-dom';
-import { FaLinkedin } from "react-icons/fa6";
-import { FaGithubSquare } from "react-icons/fa";
-import { FaTelegram } from "react-icons/fa6";
-import ContactIcons from './ContactIcons';
-import Logo from './Logo'
+import { useEffect, useState } from 'react';
 import LogoSmall from '../assets/LogoSmall';
 import { HashLink as Link} from 'react-router-hash-link'
 
@@ -12,6 +6,11 @@ import { HashLink as Link} from 'react-router-hash-link'
 function Navbar() {
 
     const [menuOpen, setMenuOpen] = useState(false);
+    useEffect (() => {
+        setMenuOpen(false);
+    },[]);
+
+
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);

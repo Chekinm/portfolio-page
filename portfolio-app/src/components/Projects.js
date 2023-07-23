@@ -1,6 +1,5 @@
 import projectsData from "./projectsData.json";
 import ProjectCard from "./ProjectCard";
-import { v4 as uuidv4 } from 'uuid';
 
 
 const Projects = () => {
@@ -9,7 +8,7 @@ const Projects = () => {
 
       
         {projectsData.projects.map((project) => (
-          <ProjectCard key={uuidv4()} className="mb-3" project={project} />
+          <ProjectCard key={project.id} className="mb-3" project={project} />
         ))}
       
     </article>

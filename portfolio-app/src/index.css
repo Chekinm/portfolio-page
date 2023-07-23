@@ -26,7 +26,6 @@ article {
   padding: 10px;
   margin-top: 1px;
   min-height: 85vh;
-  
   text-align: justify;
 
 }
@@ -36,6 +35,7 @@ article {
 }
 
 .skill {
+  text-align: center;
   color: rgb(30, 61, 88);
   background-color: rgb(24, 177, 141);
   padding: 0px 5px;
@@ -145,11 +145,13 @@ article {
   }
 
   .independent-scroll {
+    /* min-height: max-content; */
     margin-top: 0;
     padding: 10px;
-    min-height: 500vh;
+    min-height: 600vh;
     overflow-y: initial;    
   }
+
   article {
     padding-top: 10vh;
     min-height: 85vh;

@@ -24,24 +24,24 @@ const ProjectCard = ({project}) => {
             width="100%"
           />
           </div>
-          <div className="p-2">
-            <span className="skill ms-3">
+          <Row>
+            <Col xs={4} className="skill ms-auto me-3 ps-1 pe-1">
               <a className="link-button text-decoration-none"
                 target="_blank"
                 rel="noreferrer"
                 href={linkSrc}>
                 {nameLinkSrc}
               </a>
-            </span>
-            <span className="skill ms-3">
+            </Col>
+            <Col xs={4} className="skill me-auto ps-1 pe-1">
               <a className="link-button text-decoration-none"
                 target="_blank"
                 rel="noreferrer"
                 href={linkDemo}>
                 {nameLinkDemo}
               </a>
-            </span>
-          </div>
+            </Col>
+          </Row>
         </Col>
 
         <Col xs={12} lg={8}>
@@ -62,24 +62,24 @@ const ProjectCard = ({project}) => {
             width="100%"
           />
 
-          <div className="p-2">
-            <span className="skill ms-3">
+          <Row>
+            <Col xs={4} className="skill ms-auto me-3 ps-1 pe-1">
               <a className="link-button text-decoration-none"
                 target="_blank"
                 rel="noreferrer"
                 href={linkSrc}>
                 {nameLinkSrc}
               </a>
-            </span>
-            <span className="skill ms-3">
+            </Col>
+            <Col xs={4} className="skill me-auto ps-1 pe-1">
               <a className="link-button text-decoration-none"
                 target="_blank"
                 rel="noreferrer"
                 href={linkDemo}>
                 {nameLinkDemo}
               </a>
-            </span>
-          </div>
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>
