@@ -1,8 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import About from './About';
-import Projects from './Projects'
-import Contacts from './Contacts' 
-import LeftColumn from './LeftColumn'
+import RightColumn from './RightColumn';
+import LeftColumn from './LeftColumn';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -37,9 +35,7 @@ const Home = () => {
           <Col xs={0} lg={1}>
           </Col>
           <Col xs={12} lg={7} ref={rightColumnRef} className="independent-scroll">
-            <About />
-            <Projects />
-            <Contacts />
+            <RightColumn />
           </Col>
         </Row>
       </Container>
