@@ -35,6 +35,7 @@ article {
 }
 
 .skill {
+  font-size: 20px;
   text-align: center;
   color: rgb(30, 61, 88);
   background-color: rgb(24, 177, 141);
@@ -128,7 +129,6 @@ article {
   background-color: rgba(71, 167, 251, 0.05) ;
 }
 
-
 @media (max-width: 991px) {
   /* Write your CSS styles for small screens here */
   /* For example: */
@@ -159,6 +159,40 @@ article {
     text-align: justify;
   
   }
-
-  
 }
+
+@media (max-width: 300px) {
+
+  .skill {
+    font-size: 14px;
+  }
+  .independent-scroll {
+  
+    min-height: 680vh;
+      
+  }
+  }
+  
+
+
+@media (max-height: 400px) {
+
+  .independent-scroll {
+    /* min-height: max-content; */
+    
+    min-height: 850vh;
+      
+  }
+}
+
+@media (max-height: 300px) {
+
+  .independent-scroll {
+    /* min-height: max-content; */
+    
+    min-height: 950vh;
+      
+  }
+}
+
+
