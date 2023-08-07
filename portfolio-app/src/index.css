@@ -148,7 +148,7 @@ article {
     /* min-height: max-content; */
     margin-top: 0;
     padding: 10px;
-    min-height: 600vh;
+    min-height: 700vh;
     overflow-y: initial;    
   }
 
@@ -168,19 +168,29 @@ article {
   }
   .independent-scroll {
   
-    min-height: 680vh;
+    min-height: 820vh;
       
   }
   }
   
 
 
-@media (max-height: 400px) {
+@media (max-height: 450px) {
 
   .independent-scroll {
     /* min-height: max-content; */
     
-    min-height: 850vh;
+    min-height: 950vh;
+      
+  }
+}
+
+@media (max-height: 376px) {
+
+  .independent-scroll {
+    /* min-height: max-content; */
+    
+    min-height: 1050vh;
       
   }
 }
@@ -190,7 +200,7 @@ article {
   .independent-scroll {
     /* min-height: max-content; */
     
-    min-height: 950vh;
+    min-height: 1350vh;
       
   }
 }

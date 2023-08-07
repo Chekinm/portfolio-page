@@ -25,7 +25,7 @@ const ProjectCard = ({project}) => {
           />
           </div>
           <Row>
-            <Col xs={4} className="skill ms-auto me-3 ps-1 pe-1">
+            <Col xs={5} className="skill ms-auto me-2 ps-1 pe-1">
               <a className="link-button text-decoration-none"
                 target="_blank"
                 rel="noreferrer"
@@ -33,7 +33,7 @@ const ProjectCard = ({project}) => {
                 {nameLinkSrc}
               </a>
             </Col>
-            <Col xs={4} className="skill me-auto ps-1 pe-1">
+            <Col xs={5} className="skill me-auto ps-1 pe-1">
               <a className="link-button text-decoration-none"
                 target="_blank"
                 rel="noreferrer"
