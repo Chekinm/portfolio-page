@@ -11,8 +11,8 @@ import Navbar from './Navbar';
 const Home = () => {
   const rightColumnRef = useRef(null);
   useEffect(() => {
-    const handleScroll = (e) => {
-      const { deltaY } = e;
+    const handleScroll = (event) => {
+      const { deltaY } = event;
       if (rightColumnRef.current) {
         rightColumnRef.current.scrollTop += deltaY;
       }

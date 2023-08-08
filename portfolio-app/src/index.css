@@ -62,6 +62,13 @@ article {
   color: rgb(30, 61, 88);
 }
 
+.disabled-link {
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+    pointer-events: none; /* Prevents interactions like clicks */
+    cursor: default;     /* Changes cursor appearance */
+}
+
 
 .navbar-toggler:focus,
 .navbar-toggler,
@@ -148,7 +155,7 @@ article {
     /* min-height: max-content; */
     margin-top: 0;
     padding: 10px;
-    min-height: 700vh;
+    min-height: 710vh;
     overflow-y: initial;    
   }
 
@@ -168,7 +175,7 @@ article {
   }
   .independent-scroll {
   
-    min-height: 820vh;
+    min-height: 830vh;
       
   }
   }
@@ -180,7 +187,7 @@ article {
   .independent-scroll {
     /* min-height: max-content; */
     
-    min-height: 950vh;
+    min-height: 970vh;
       
   }
 }
@@ -190,7 +197,7 @@ article {
   .independent-scroll {
     /* min-height: max-content; */
     
-    min-height: 1050vh;
+    min-height: 1070vh;
       
   }
 }
@@ -200,7 +207,7 @@ article {
   .independent-scroll {
     /* min-height: max-content; */
     
-    min-height: 1350vh;
+    min-height: 1390vh;
       
   }
 }

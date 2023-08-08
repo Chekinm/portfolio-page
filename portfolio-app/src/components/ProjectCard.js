@@ -12,6 +12,7 @@ const ProjectCard = ({project}) => {
           nameLinkSrc,
           linkDemo,
           nameLinkDemo,
+          demoEnable,
           } = project
   console.log(name)
   
@@ -34,7 +35,7 @@ const ProjectCard = ({project}) => {
               </a>
             </Col>
             <Col xs={5} className="skill me-auto ps-1 pe-1">
-              <a className="link-button text-decoration-none"
+              <a className={"link-button text-decoration-none" + (!demoEnable ? " disabled-link":"")}
                 target="_blank"
                 rel="noreferrer"
                 href={linkDemo}>
@@ -62,7 +63,7 @@ const ProjectCard = ({project}) => {
             width="100%"
           />
 
-          <Row>
+          <Row className="mb-2">
             <Col xs={4} className="skill ms-auto me-3 ps-1 pe-1">
               <a className="link-button text-decoration-none"
                 target="_blank"
@@ -72,7 +73,7 @@ const ProjectCard = ({project}) => {
               </a>
             </Col>
             <Col xs={4} className="skill me-auto ps-1 pe-1">
-              <a className="link-button text-decoration-none"
+              <a className={"link-button text-decoration-none" + (!demoEnable ? " disabled-link":"")} 
                 target="_blank"
                 rel="noreferrer"
                 href={linkDemo}>

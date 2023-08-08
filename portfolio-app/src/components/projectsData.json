@@ -22,7 +22,7 @@
                            ],
             "linkSrc": "https://github.com/Chekinm/flat-bot/",
             "nameLinkSrc": "GitHub",
-            "linkDemo": "https://chekinm.github.io/", 
+            "linkDemo": "https://github.com/Chekinm/flat-bot/", 
             "nameLinkDemo": "Demo",
             "demoEnable": false
         },
@@ -52,9 +52,9 @@
               ],
             "linkSrc": "https://github.com/Chekinm/bottle-buddy",
             "nameLinkSrc": "GitHub",
-            "linkDemo": "https://bottle-buddy-front.onrender.com/",
+            "linkDemo": "https://github.com/Chekinm/bottle-buddy",
             "nameLinkDemo": "Demo",
-            "demoEnable": true
+            "demoEnable": false
         }
     ]
 }

@@ -21,11 +21,13 @@ const LeftColumn = () => {
             <span className="skill">DRF</span>{'\u00A0'}
             <span className="skill">Node.js</span>{'\u00A0'}
             <span className="skill">Express.js</span>{'\n'}
+
             <span className="skill">React</span>{'\u00A0'}
             <span className="skill">Redux</span>{'\n'}
             <span className="skill">HTML5</span>{'\u00A0'}
             <span className="skill">Bootstrap</span>{'\u00A0'}
             <span className="skill">CSS</span>{'\n'}
+            
             <span className="skill">Git</span>{'\u00A0'}
             <span className="skill">Github</span>{'\u00A0'}
           </p>
