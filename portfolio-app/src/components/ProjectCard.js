@@ -50,7 +50,7 @@ const ProjectCard = ({project}) => {
           <h2> <a className="link-highligth text-decoration-none"
             target="_blank"
             rel="noreferrer"
-            href="https://bottle-buddy-front.onrender.com/">{name}</a></h2>
+            href={linkSrc}>{name}</a></h2>
           <div>
             {description.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
