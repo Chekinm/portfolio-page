@@ -2,4 +2,4 @@ User-agent: Yandex
 Disallow: /
 User-agent: *
 Allow: /
-
+Sitemap: https://mchekin.vercel.app/sitemap.xml
