@@ -2,15 +2,15 @@ import ContactIcons from "./ContactIcons"
 
 const LeftColumn = () => {
   return (
-    <main className="name-section">
-      <div>
-        <header className="display-3">Mikhail Chekin</header>
-        <h4 className="fs-2">Fullstack web developer</h4>
+    <section className="name-section">
+      <header>
+        <h1 className="display-3"><h1><strong>Mikhail Chekin</strong></h1></h1>
+        <h1 className="fs-2"><strong>Fullstack web developer</strong></h1>
         <div className="fs-5 text-white text-opacity-50">Inspired by the algorithms' magic</div>
 
-        </div>
-        <div>
-          <div className="fs-2 text-white text-opacity-50">My stack</div>
+      </header>
+        <section>
+          <header className="fs-2 text-white text-opacity-50">My stack</header>
           <p className="fs-5 text-white text-opacity-50 skills">
             <span className="skill">Python</span>{'\u00A0'}
             <span className="skill">Javascript</span>{'\u00A0'}
@@ -31,9 +31,9 @@ const LeftColumn = () => {
             <span className="skill">Git</span>{'\u00A0'}
             <span className="skill">Github</span>{'\u00A0'}
           </p>
-        </div>
+        </section>
       <ContactIcons className="icons-container"/>  
-    </main>
+    </section>
 
   )
 }
