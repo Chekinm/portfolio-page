@@ -14,19 +14,24 @@ const LeftColumn = () => {
           <p className="fs-5 text-white text-opacity-50 skills">
             <span className="skill">Python</span>{'\u00A0'}
             <span className="skill">Javascript</span>{'\u00A0'}
-            <span className="skill">SQL</span>{'\u00A0'}
             <span className="skill">OOP</span>{'\n'}
 
             <span className="skill">Django</span>{'\u00A0'}
-            <span className="skill">DRF</span>{'\u00A0'}
+            <span className="skill">DjangoREST</span>{'\u00A0'}
+            <span className="skill">Flask</span>{'\n'}
+            
+            <span className="skill">React</span>{'\u00A0'}
+            <span className="skill">Redux</span>{'\u00A0'}
             <span className="skill">Node.js</span>{'\u00A0'}
             <span className="skill">Express.js</span>{'\n'}
 
-            <span className="skill">React</span>{'\u00A0'}
-            <span className="skill">Redux</span>{'\n'}
+            <span className="skill">PostgreSQL</span>{'\u00A0'}
+            <span className="skill">MongoDB</span>{'\n'}
+            
             <span className="skill">HTML5</span>{'\u00A0'}
             <span className="skill">Bootstrap</span>{'\u00A0'}
-            <span className="skill">CSS</span>{'\n'}
+            <span className="skill">CSS</span>{'\u00A0'}
+            <span className="skill">htmx</span>{'\n'}
             
             <span className="skill">Git</span>{'\u00A0'}
             <span className="skill">Github</span>{'\u00A0'}

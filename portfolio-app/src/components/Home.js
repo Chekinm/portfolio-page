@@ -27,6 +27,7 @@ const Home = () => {
   return (
     <div id="home">
       <Navbar />
+      <main>
       <Container>
         <Row>
           <Col xs={12} lg={4}>
@@ -39,6 +40,7 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
+      </main>
     </div>
   )
 }
