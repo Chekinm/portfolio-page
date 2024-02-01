@@ -31,12 +31,12 @@
         },
         {   
             "id": 3,
-            "name": "Flask/MongoDB backend server",
+            "name": "Flask/MongoDB server",
             "picture": "img/flask.png",
             "description": [
                 "Sample Backend Project using Flask and MongoDB:",
-                "A service designed to manage images stored on an AWS S3 server,",
-                "with an information database powered by MongoDB running on the Atlas cloud."],
+                "A service designed to manage  imformation about images stored on an AWS S3 server,",
+                "with database powered by MongoDB, running on the Atlas cloud."],
             "linkSrc": "https://github.com/Chekinm/flask-app-fermata-homework-ubuntu",
             "nameLinkSrc": "GitHub",
             "linkDemo": "https://mchekin.aislab.pro/groups",
