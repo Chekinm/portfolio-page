@@ -179,7 +179,7 @@ article {
   }
   .independent-scroll {
   
-    min-height: 830vh;
+    min-height: 970vh;
       
   }
   }
@@ -191,7 +191,7 @@ article {
   .independent-scroll {
     /* min-height: max-content; */
     
-    min-height: 970vh;
+    min-height: 1100vh;
       
   }
 }
@@ -201,7 +201,7 @@ article {
   .independent-scroll {
     /* min-height: max-content; */
     
-    min-height: 1070vh;
+    min-height: 1200vh;
       
   }
 }
@@ -211,7 +211,7 @@ article {
   .independent-scroll {
     /* min-height: max-content; */
     
-    min-height: 1390vh;
+    min-height: 1590vh;
       
   }
 }
