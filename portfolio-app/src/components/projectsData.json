@@ -31,6 +31,20 @@
         },
         {   
             "id": 3,
+            "name": "Flask/MongoDB backend server",
+            "picture": "img/flask.png",
+            "description": [
+                "Sample Backend Project using Flask and MongoDB:",
+                "A service designed to manage images stored on an AWS S3 server,",
+                "with an information database powered by MongoDB running on the Atlas cloud."],
+            "linkSrc": "https://github.com/Chekinm/flask-app-fermata-homework-ubuntu",
+            "nameLinkSrc": "GitHub",
+            "linkDemo": "https://mchekin.aislab.pro/groups",
+            "nameLinkDemo": "Online",
+            "demoEnable": true
+        },
+        {   
+            "id": 4,
             "name": "My algo practice",
             "picture": "img/bf.png",
             "description": [
@@ -45,7 +59,7 @@
             "demoEnable": true
         },
         {
-            "id": 4,
+            "id": 5,
             "name": "Abraham Lempel tribute page",
             "picture": "img/LZW.png",
             "description": ["On February 4, 2023, I heard the sad news that Abraham Lempel had passed away. He was 86 years old. The news said that he was the grandfather of all modern compression algorithms. Today, everybody knows words like MP3, JPEG, or ZIP, but only a few know who invented these technologies for us. In 1977, Abraham Lempel and Jacob Ziv published their article about a lossless data compression algorithm. Later, in 1984, Terry Welch suggested a slightly modified version of this algorithm, which we now know as the LZW compression algorithm. Their fundamental ideas are at the core of all modern compression methods.",
