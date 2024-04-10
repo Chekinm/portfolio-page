@@ -22,7 +22,7 @@ const About = () => {
                                             > the projects </Link> I have recently completed. </p>
 
         <p>If you're interested, please feel free to review my  
-          <a href="/MikhailChekin_CV_python_dev_2024_april.pdf"
+          <a href="/MikhailChekin_CV_fullstack_dev_2024_april.pdf"
             target="_blank"
             rel="noreferrer"
             className="link-highligth text-decoration-none"
