@@ -8,11 +8,10 @@ import { Analytics } from "@vercel/analytics/react";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Analytics>
-        <BrowserRouter>
-            <Routes>
-                <Route path="/*" element={<App />} />
-            </Routes>
-        </BrowserRouter>
-    </Analytics>
+    <BrowserRouter>
+        <Analytics />
+        <Routes>
+            <Route path="/*" element={<App />} />
+        </Routes>
+    </BrowserRouter>
 );
