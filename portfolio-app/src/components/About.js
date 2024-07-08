@@ -21,8 +21,8 @@ const About = () => {
                                             className="link-highligth text-decoration-none"
                                             > the projects </Link> I have recently completed. </p>
 
-        <p>If you're interested, please feel free to review my  
-          <a href="/MikhailChekin_CV_fullstack_dev_2024_april.pdf"
+        <p>If you're interested, please feel free to review my 
+          <a href="/MikhailChekin_CV_fullstack_dev_2024_june.pdf"
             target="_blank"
             rel="noreferrer"
             className="link-highligth text-decoration-none"
