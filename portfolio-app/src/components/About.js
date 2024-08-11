@@ -17,22 +17,23 @@ const About = () => {
           href="https://developers.institute/en/"> Developers Institute Bootcamp, </a>
          which I completed successfully in July 2023.
       </p>
-      <p> Currently, I working as frontend developer in 
+      <p> Currently, I working as a frontend developer in 
         <a className="link-highligth text-decoration-none"
           target="_blank"
           rel="noreferrer"
           href="https://gaintrade.ai"> GainTrade Inc</a>. 
-          We build an app for stock exchange traders to manage arbitrage trading stratagies. </p> 
-      <p>Below, you will find some of my personal projects <Link to="/#projects"
-                                          className="link-highligth text-decoration-none"
-                                          > the projects </Link> I have recently completed. </p>
+          We build an app for stock exchange traders to manage arbitrage trading strategies. </p> 
+      <p>Below, you will find some of my personal projects 
+          <Link to="/#projects"
+          className="link-highligth text-decoration-none"
+          > projects </Link> I have recently completed. </p>
 
       <p>If you're interested, please feel free to review my 
         <a href="/MikhailChekin_CV_FullStack_2024_august.pdf"
           target="_blank"
           rel="noreferrer"
           className="link-highligth text-decoration-none"
-        > resume.</a></p>
+        > CV.</a></p>
       <p>I am always open to communication, so please don't hesitate to  <Link to="/#contacts"
         className="link-highligth text-decoration-none"
       > reach out to me </Link>  with any questions you may have.</p>
