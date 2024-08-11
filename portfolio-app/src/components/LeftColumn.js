@@ -13,8 +13,7 @@ const LeftColumn = () => {
           <header className="fs-2 text-white text-opacity-50">My stack</header>
           <p className="fs-5 text-white text-opacity-50 skills">
             <span className="skill">Python</span>{'\u00A0'}
-            <span className="skill">Javascript</span>{'\u00A0'}
-            <span className="skill">OOP</span>{'\n'}
+            <span className="skill">Javascript</span>{'\n'}
 
             <span className="skill">Django</span>{'\u00A0'}
             <span className="skill">DjangoREST</span>{'\u00A0'}
@@ -22,8 +21,8 @@ const LeftColumn = () => {
             
             <span className="skill">React</span>{'\u00A0'}
             <span className="skill">Redux</span>{'\u00A0'}
-            <span className="skill">Node.js</span>{'\u00A0'}
-            <span className="skill">Express.js</span>{'\n'}
+            <span className="skill">Vue.js</span>{'\u00A0'}
+            <span className="skill">Vuex</span>{'\n'}
 
             <span className="skill">PostgreSQL</span>{'\u00A0'}
             <span className="skill">MongoDB</span>{'\n'}
@@ -34,6 +33,7 @@ const LeftColumn = () => {
             <span className="skill">htmx</span>{'\n'}
             
             <span className="skill">Git</span>{'\u00A0'}
+            <span className="skill">Gitlab</span>{'\u00A0'}
             <span className="skill">Github</span>{'\u00A0'}
           </p>
         </section>
