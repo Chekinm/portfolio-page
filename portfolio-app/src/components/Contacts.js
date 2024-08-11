@@ -8,7 +8,7 @@ const Contacts = () => {
         <p>I live in Rishon LeZion.
         I am considering jobs locations in Gushdan, Jerusalem, Ashkelon and Ashdod.
         You can always reach me by phone.</p>
-        <p> You can find a number in <a href="/MikhailChekin_CV_fullstack_dev_2024_june.pdf"
+        <p> You can find a number in <a href="//MikhailChekin_CV_FullStack_2024_august.pdf"
           target="_blank"
           rel="noreferrer"
           className="link-highligth text-decoration-none"
