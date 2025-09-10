@@ -15,6 +15,21 @@
             "demoEnable": false
         },
         {   
+            "id": 2,
+            "name": "Bottle-buddy project",
+            "picture": "img/bottle-buddy.png",
+            "description": [
+                "The project is a social network connecting people who care about recycling bottles. Users create orders for recycling their bottles, visible to others. Collectors browse and select orders, which the creator can close. The collector picks up the bottles and delivers them to a recycling center, receiving compensation.",
+                "The project uses Django backend with Django Rest Framework and React frontend for user authentication, order management, and communication. It aims to streamline recycling by connecting users for convenient and efficient order creation and management.",
+                "This project is currently under construction. Please be patient and wait for 3-5 minutes while the onrender starts the deployed project."
+              ],
+            "linkSrc": "https://github.com/Chekinm/bottle-buddy",
+            "nameLinkSrc": "GitHub",
+            "linkDemo": "https://github.com/Chekinm/bottle-buddy",
+            "nameLinkDemo": "Demo",
+            "demoEnable": false
+        },
+        {   
             "id": 3,
             "name": "Flask/MongoDB server",
             "picture": "img/flask.png",
